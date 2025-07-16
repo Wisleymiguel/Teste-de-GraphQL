@@ -1,0 +1,21 @@
+# Ignora dependências
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Pastas de build/teste temporárias
+dist/
+coverage/
+.env
+
+# VS Code
+.vscode/
+
+# Lock do Git se travar
+.git/index.lock
