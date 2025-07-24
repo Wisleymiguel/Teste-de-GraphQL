@@ -1,6 +1,6 @@
 const { spec } = require('pactum');
 
-it('should authenticate the user correctly', async () => {
+it('Login Graphql', async () => {
     await spec()
         .post('http://lojaebac.ebaconline.art.br/graphql')
         .withGraphQLQuery(
